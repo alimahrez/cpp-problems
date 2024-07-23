@@ -30,14 +30,9 @@ int main()
     std::vector<int> orginNumberList;
     std::vector<int> orginTernList;
 
-    auto numbers_sort = [](std::array<int, 13> &arr) -> void
-                        {
-                            std::sort(arr.begin(), arr.end());
-                        };
+    std::sort(numbers.begin(), numbers.end());
 
-    numbers_sort(numbers);
-
-        orgin = numbers[0];
+    orgin = numbers[0];
     orginNumberList.push_back(numbers[0]);
 
     for (auto it = numbers.begin(); it <= numbers.end(); ++it)

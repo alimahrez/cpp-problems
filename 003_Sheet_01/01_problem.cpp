@@ -1,8 +1,8 @@
-#include <iostream>
-#include <algorithm>
 /*
     1) Find in the array two numbers sum of 15. A = {1 5 3 6 10}
 */
+#include <iostream>
+#include <algorithm>
 
 int main()
 {
